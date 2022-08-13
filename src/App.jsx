@@ -15,10 +15,15 @@ export default class App extends Component {
         <NavBar />
         <div className="container-fluid">
           <Routes>
+            <Route
+              path="/Shahbaaz-Associates-eCommerce-App"
+              exact
+              element={<Login />}
+            />
             <Route path="/" exact element={<Login />} />
             <Route path="/dashboard" exact element={<Dashboard />} />
             <Route path="/customers" exact element={<CustomersList />} />
-            <Route path="/cart" exact element={<ShoppingCart />} />=
+            <Route path="/cart" exact element={<ShoppingCart />} />
           </Routes>
         </div>
       </BrowserRouter>
