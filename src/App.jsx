@@ -18,8 +18,7 @@ export default class App extends Component {
             <Route path="/" exact element={<Login />} />
             <Route path="/dashboard" exact element={<Dashboard />} />
             <Route path="/customers" exact element={<CustomersList />} />
-            <Route path="/cart" exact element={<ShoppingCart />} />
-            <Route path="*" element={<NoMatchPage />} />
+            <Route path="/cart" exact element={<ShoppingCart />} />=
           </Routes>
         </div>
       </BrowserRouter>
