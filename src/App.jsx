@@ -16,9 +16,9 @@ export default class App extends Component {
         <div className="container-fluid">
           <Routes>
             <Route
-              path="/Shahbaaz-Associates-eCommerce-App"
+              path="/Shahbaaz-Associates-eCommerce-App/"
               exact
-              element={<Login />}
+              element={<Dashboard />}
             />
             <Route path="/" exact element={<Login />} />
             <Route path="/dashboard" exact element={<Dashboard />} />
