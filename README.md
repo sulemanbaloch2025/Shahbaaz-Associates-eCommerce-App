@@ -1,5 +1,7 @@
 
-<img width="531" alt="image" src="https://user-images.githubusercontent.com/98342966/184509524-902f9e00-e3c4-43d8-b69e-b1aa2745f4d2.png">
+<img width="619" alt="image" src="https://user-images.githubusercontent.com/98342966/184509555-af334a95-9769-40d7-a6e0-3b6054a5f7d6.png">
+
+
 Live Demo : https://sulemanbaloch2025.github.io/Shahbaaz-Associates-eCommerce-App/
 
 This application is a simple version of a ecommerce application made using React.js. The application opens up with a UI that asks the user to put a username and a password for login details. The pages include the Shopping Cart, Customers and Dashboard. The Shopping Cart buy now feature in cart is only avaiable for customers with verified login details.
